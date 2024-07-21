@@ -109,7 +109,7 @@ float: left;
 }
 .logo a h1 {
     font-size: 2em;
-    color: #B40A49 ;
+    color: #000000 ;
  font-family: 'Titillium Web', sans-serif;
 }
 .logo a img {
@@ -119,7 +119,7 @@ float: left;
     font-size: 8em;
     text-align: center;
        padding-top: 2em;
-    color: #B40A49;
+    color: #ffffff;
     font-family: 'Francois One', sans-serif;
     letter-spacing: 9px;
     font-weight: 900;
@@ -128,7 +128,7 @@ float: left;
     font-size: 5em;
     text-align: center;
     padding-top: 1em;
-    color: #B40A49;
+    color: #000000;
     font-family: 'Francois One', sans-serif;
     letter-spacing: 9px;
     font-weight: 900;
@@ -187,7 +187,7 @@ float: left;
 .about h2,.services h3,.gallery h3{
         font-family: 'Signika Negative', sans-serif;
     font-size: 3em;
-    color: #B40A49;
+    color: #000000;
     text-align: center;
         margin-bottom: .8em;
 }
@@ -632,7 +632,7 @@ p.quis{
     
 }
 .mid-top h3 {
-    color: #B40A49;
+    color: #000000;
     font-size: 3em;
 	text-align:center;
 }
@@ -717,7 +717,7 @@ p.quis{
 /*--footer--*/
 .footer{
 	padding:1em 0;
-	background:#B40A49;
+	background:#000000;
 }
 .social-agile{
 margin:0 auto;
@@ -1014,7 +1014,7 @@ ul.social-team li a.instagram {
 .s-grid1 h2, .s-grid2 h3{
 font-family: 'Signika Negative', sans-serif ;
 font-size: 3em ;
-color: #B40A49;
+color: #000000;
 text-align: center;
 margin-bottom: 1em ;
 }
@@ -1169,7 +1169,7 @@ vertical-align:middle;
 .s-grid3 h3{
 font-family: 'Signika Negative', sans-serif ;
 font-size: 36px;
-color: #B40A49;
+color: #000000;
 text-align: center;
 margin-bottom: 7px;
 }
@@ -1328,7 +1328,7 @@ margin-bottom: 35px;
 .g-grid h4, .c-grid h2, .c-grid h3{
 font-family: 'Signika Negative', sans-serif ;
 font-size: 36px;
-color: #B40A49;
+color: #000000;
 text-align: center;
 }
 .g-grid h5{
