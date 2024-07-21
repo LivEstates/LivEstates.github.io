@@ -44,8 +44,8 @@ body a:hover{
 .banner-all{
 	min-height: 320px;
 }
-.headder {
-    background: rgba(180, 10, 73, 1);
+.header {
+    background: rgb(0, 0, 0);
     padding: .5em 0;
 }
 nav.navbar.navbar-default {
