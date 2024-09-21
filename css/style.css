@@ -34,7 +34,7 @@ body a:hover{
 }
 /*--banner--*/
 .banner, .banner-all{
-	background:url(../images/banner1.jpg)no-repeat 0px 0px;
+	background:url(../images/version02/01.jpg)no-repeat 0px 0px;
 	background-size:cover;
 	position: relative;
 }
@@ -107,14 +107,16 @@ float: left;
     color: #fff;
     font-size: 1.2em;
 }
+
 .logo a h1 {
     font-size: 2em;
     color: #000000 ;
- font-family: 'Titillium Web', sans-serif;
+ 	font-family: 'Titillium Web', sans-serif;
 }
 .logo a img {
        width: 75%;
 }
+/* index.html Livestates */
 .banner h1 {
     font-size: 8em;
     text-align: center;
@@ -123,15 +125,25 @@ float: left;
     font-family: 'Francois One', sans-serif;
     letter-spacing: 9px;
     font-weight: 900;
+	text-shadow: 
+	-2px -2px 3px #ff6478,  
+	2px -2px 3px #ff6478,
+	-2px 2px 3px #ff6478,
+	2px 2px 3px #000000; /* Blurry black outline */
 }
 .banner-all h1 {
     font-size: 5em;
     text-align: center;
     padding-top: 1em;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Francois One', sans-serif;
     letter-spacing: 9px;
     font-weight: 900;
+	text-shadow: 
+	-2px -2px 3px #ff6478,  
+	2px -2px 3px #ff6478,
+	-2px 2px 3px #ff6478,
+	2px 2px 3px #000000; /* Blurry black outline */
 }
 .navbar-nav a:hover::before,
 .navbar-nav a:focus::before ,.navbar-nav  a.active::before{
@@ -195,6 +207,7 @@ float: left;
 .about,.services,.gallery,.contact{
 	    padding: 75px 0;
 }
+  
 /*--about--*/
 .about img {
   width: 100%;
@@ -615,7 +628,7 @@ p.quis{
 /*-- //banner-bottom2 --*/
 /*--mid-collection--*/
 .mid-section {
-    background: url(../images/mid-bg.jpg);
+    background: url(../images/version02/06.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -624,7 +637,7 @@ p.quis{
     min-height: 470px;
 }
 .mid-top {
-    background-color: rgba(44, 62, 80, 0.81);
+    /* background-color: rgba(44, 62, 80, 0.81); */
     padding: 4em 2em;
     width: 80%;
 	margin:0 auto;
@@ -643,6 +656,11 @@ p.quis{
 	text-align:center;
     margin-top: 0.7em;
 	letter-spacing:1.4px;
+	text-shadow: 
+	-2px -2px 3px #545b8b,  
+	2px -2px 3px #545b8b,
+	-2px 2px 3px #545b8b,
+	2px 2px 3px #000000; /* Blurry black outline */
 }
 /*--/mid-collection--*/
 /*--gallery--*/
@@ -706,7 +724,7 @@ p.quis{
    -moz-box-shadow: 0 0 1px #000;
    box-shadow: 0 0 1px #000;
 }
-.view a.info: hover {
+.view a.info:hover {
    -webkit-box-shadow: 0 0 5px #000;
    -moz-box-shadow: 0 0 5px #000;
    box-shadow: 0 0 5px #000;
@@ -1362,7 +1380,7 @@ padding-bottom:30px;
 
 
 .contact {
-  background:#;
+  background: #ffffff;
   background-size:cover;
 }
 .contact-right p {
@@ -2496,7 +2514,7 @@ nav.navbar.navbar-default {
 	nav.navbar.navbar-default {
     	width: 20%;
     }
-	.headder {
+	.header {
 	    padding: .1em 0 0;
 	}
 	.header-right-text h3 span {

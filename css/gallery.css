@@ -73,7 +73,7 @@
     display: none;
 }
 .view-ninth:hover .content {
-   height: 130px;
+   height: 140px;
     width: 330px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     filter: alpha(opacity=90);
