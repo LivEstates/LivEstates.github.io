@@ -186,7 +186,7 @@ float: left;
 	    font-size: 15px;
 }
 .search-bar input[type="submit"] {
-    background: url(../images/search.png) no-repeat center center;
+    background: url(../images/version02/search.png) no-repeat center center;
     background-size: contain;
     border: 0;
     width: 24px;
