@@ -34,7 +34,7 @@ body a:hover{
 }
 /*--banner--*/
 .banner, .banner-all{
-	background:url(../images/version02/horizontal.jpg)no-repeat 0px 0px;
+	background:url(../images/version02/01.jpg)no-repeat 0px 0px;
 	background-size:cover;
 	position: relative;
 }
@@ -126,9 +126,9 @@ float: left;
     letter-spacing: 9px;
     font-weight: 900;
 	text-shadow: 
-	-2px -2px 3px #505c6f,  
-	2px -2px 3px #505c6f,
-	-2px 2px 3px #505c6f,
+	-2px -2px 3px #ff6478,  
+	2px -2px 3px #ff6478,
+	-2px 2px 3px #ff6478,
 	2px 2px 3px #000000; /* Blurry black outline */
 }
 .banner-all h1 {
@@ -140,9 +140,9 @@ float: left;
     letter-spacing: 9px;
     font-weight: 900;
 	text-shadow: 
-	-2px -2px 3px #505c6f,  
-	2px -2px 3px #505c6f,
-	-2px 2px 3px #505c6f,
+	-2px -2px 3px #ff6478,  
+	2px -2px 3px #ff6478,
+	-2px 2px 3px #ff6478,
 	2px 2px 3px #000000; /* Blurry black outline */
 }
 .navbar-nav a:hover::before,
@@ -629,7 +629,7 @@ p.quis{
 /*-- //banner-bottom2 --*/
 /*--mid-collection--*/
 .mid-section {
-    background: url(../images/version02/06.jpg);
+    background: url(../images/version02/horizontal.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -649,6 +649,11 @@ p.quis{
     color: #000000;
     font-size: 3em;
 	text-align:center;
+	text-shadow: 
+	-2px -2px 3px #545b8b,  
+	2px -2px 3px #545b8b,
+	-2px 2px 3px #ffffff,
+	2px 2px 3px #ffffff; /* Blurry black outline */
 }
 .mid-top p {
     font-size: 16px;
