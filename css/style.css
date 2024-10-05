@@ -34,7 +34,7 @@ body a:hover{
 }
 /*--banner--*/
 .banner, .banner-all{
-	background:url(../images/version02/01.jpg)no-repeat 0px 0px;
+	background:url(../images/version02/horizontal.jpg)no-repeat 0px 0px;
 	background-size:cover;
 	position: relative;
 }
@@ -126,9 +126,9 @@ float: left;
     letter-spacing: 9px;
     font-weight: 900;
 	text-shadow: 
-	-2px -2px 3px #ff6478,  
-	2px -2px 3px #ff6478,
-	-2px 2px 3px #ff6478,
+	-2px -2px 3px #505c6f,  
+	2px -2px 3px #505c6f,
+	-2px 2px 3px #505c6f,
 	2px 2px 3px #000000; /* Blurry black outline */
 }
 .banner-all h1 {
@@ -140,9 +140,9 @@ float: left;
     letter-spacing: 9px;
     font-weight: 900;
 	text-shadow: 
-	-2px -2px 3px #ff6478,  
-	2px -2px 3px #ff6478,
-	-2px 2px 3px #ff6478,
+	-2px -2px 3px #505c6f,  
+	2px -2px 3px #505c6f,
+	-2px 2px 3px #505c6f,
 	2px 2px 3px #000000; /* Blurry black outline */
 }
 .navbar-nav a:hover::before,
