@@ -37,6 +37,8 @@ body a:hover{
 	background:url(../images/version02/01.jpg)no-repeat 0px 0px;
 	background-size:cover;
 	position: relative;
+	/* Add padding-top to account for the fixed header */
+	padding-top: 100px; /* Adjust this value based on your header height */
 }
 .banner{
 	min-height: 750px;
@@ -44,6 +46,18 @@ body a:hover{
 .banner-all{
 	min-height: 320px;
 }
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);  /*Adjust the color and opacity as needed */
+    z-index: 2000;
+    /* Add other styling as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
 .header {
     background: rgb(0, 0, 0);
     padding: .5em 0;
@@ -287,7 +301,7 @@ figure.icon i {
   font-size: 1.6em;
   text-align: center;
   margin-top: 1.7em;
-  z-index: 9999;
+  z-index: 1000;
 }
 
 .service-box .icon {
@@ -1768,7 +1782,7 @@ margin-bottom: 0.3em;
 .s-grid1-text {
     float: left;
     padding: 0px;
-	width:87%;
+	width:100%;
 }
 .train-grid {
     width: 50%;
@@ -2202,9 +2216,9 @@ ul.nav.navbar-nav {
 .banner-bottom-left-grid {
     height: 196px;
 }
-.s-grid1-text {
+/* .s-grid1-text {
     width: 85%;
-}
+} */
 .s-grid1 h2, .s-grid2 h3 {
     font-size: 32px;
 }
@@ -2236,9 +2250,9 @@ p.quis {
 	width: 100%;
     text-align: center;
 }
-.s-grid1-text {
+/* .s-grid1-text {
     width: 83%;
-}
+} */
 .s-grid1-text p {
     line-height: 22px;
 }
@@ -2423,9 +2437,9 @@ nav.navbar.navbar-default {
 .team_grid h4 {
     margin-top: 10px;
 }
-.s-grid1-text {
+/* .s-grid1-text {
     width: 80%;
-}
+} */
 .s-grid3-left {
     left: 20%;
 }
