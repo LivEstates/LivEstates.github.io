@@ -1,3 +1,7 @@
+:root {
+    --header-height: 80px; /* Adjust this value to match your fixed header height */
+}
+
 /* reset */
 body {
 width:100%; padding: 0; margin: 0; }
@@ -39,8 +43,11 @@ body a:hover{
 	background:url(../images/version02/home\ banner\ pic\ .jpg)no-repeat center center;
 	background-size:cover;
 	position: relative;
+	
 	/* Add padding-top to account for the fixed header */
-	padding-top: 100px; /* Adjust this value based on your header height*/
+	/*padding-top: 100px;  Adjust this value based on your header height*/
+	padding-top: var(--header-height); /* Use the same header height variable */
+	background-position: center calc(50% + var(--header-height)/2); /* Centers the background after accounting for header */
 }
 .banner-all{
 	min-height: 320px;
@@ -59,7 +66,8 @@ body a:hover{
     background-color: rgba(0, 0, 0, 1);  /*Adjust the color and opacity as needed */
     z-index: 2000;
     /* Add other styling as needed */
-    padding: 10px 0; /* Adjust padding as needed */
+    /*padding: 10px 0;  Adjust padding as needed */
+	height: var(--header-height); /* Use the variable */
 }
 
 .header {
@@ -72,6 +80,7 @@ background: none;
     margin: 2.2em 0 0;
     float: left;
     width: 34.5%;
+	padding-left: 10px;
 }
 a.navbar-brand {
   padding: 0;
@@ -86,7 +95,31 @@ color: #fff !important;
     font-size: 1.2em;
     padding: 0;
     font-weight: 600;
+	position: relative; /* For underline positioning */
+    padding-bottom: 5px; /* Space for underline */
+    transition: color 0.3s ease;
 }
+
+/* Create underline effect */
+.navbar-nav li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+/* Show underline for active state and hover */
+.navbar-nav li a:hover::after,
+.navbar-nav li a.active::after {
+    transform: scaleX(1); /* Show underline */
+}
+
 .navbar-nav li a:hover,.navbar-nav li a.active{
    color:#D3D3D3 !important;
    background: none;
@@ -111,11 +144,12 @@ color: #fff !important;
   -moz-transform: translateX(-50%);
   transform: translateX(-50%);
   pointer-events: none;
+  display: none; /* Remove the dot */
 }
 .logo {
 	/* float:left; */
     width: 10%;
-    margin-left: 20px
+    margin-left: 20px;
 }
 .header-right-text {
     float: left;
@@ -134,16 +168,17 @@ color: #fff !important;
 .logo a img {
 	margin-top: 10px;
 	margin-left: 5px;
+	max-height: 80px;
 }
 /* index.html Livestates */
 .banner h1 {
     font-size: 7em;
     text-align: center;
-    padding-top: 2.2em;
+    padding-top: 2.8em;
 	padding-left: 20px;
-    color: #c70000;
+    color: #c0262f;
     /* font-family: 'Francois One', sans-serif; */
-    letter-spacing: 9px;
+    letter-spacing: 3px;
     font-weight: 900;
 	/* Blurry black outline */
 	/* text-shadow: 
@@ -156,9 +191,9 @@ color: #fff !important;
     font-size: 3.5em;
     text-align: center;
     padding-top: 1.5em;
-    color: #c70000;
+    color: #c0262f;
     /* font-family: 'Francois One', sans-serif; */
-    letter-spacing: 9px;
+    letter-spacing: 3px;
     font-weight: 900;
 	/* text-shadow: 
 	-2px -2px 3px #ff6478,  
@@ -1622,11 +1657,11 @@ p.cnt-p {
 	    margin: 33px 1em 0 0em;
 	}
 	.banner {
-	    min-height: 412px;
+	    min-height: 512px;
 	}
 	.banner h1 {
 	    font-size: 4.5em;
-	    padding-top: 1.5em;
+	    /* padding-top: 1.5em; */
     }
     /* .about, .services, .gallery, .contact {
 	    padding: 3em 0;
@@ -1963,7 +1998,7 @@ margin-bottom: 0.3em;
 	}
 	.banner h1 {
 		font-size: 4em;
-	        padding-top: 2em;
+	        /* padding-top: 2em; */
 	}
 	.about-info {
 	    width: 50%;
@@ -2145,7 +2180,7 @@ margin-bottom: 0.3em;
 	    min-height: 460px;
 	}
 	.banner h1 {
-	        padding-top: 2em;
+	        /* padding-top: 2em; */
 	}
 	p.ab-text {
 	    display: none;
@@ -2449,7 +2484,7 @@ p.quis {
 	    min-height: 380px;
 	}
 	.banner h1 {
-	    padding-top: 1.8em;
+	    /* padding-top: 1.8em; */
 		font-size: 3em;
 	}
 	.header-right-text {
@@ -2653,7 +2688,7 @@ nav.navbar.navbar-default {
 		
 	}
 	.banner h1{
-		padding-top: 1.3em;
+		/* padding-top: 1.3em; */
 	}
 	.banner-all {
     min-height: 230px;
@@ -2805,7 +2840,7 @@ nav.navbar.navbar-default {
     right: -10%;
 }
 .banner h1 {
-    padding-top: 1em;
+    /* padding-top: 1em; */
 }
 .banner-all {
     min-height: 151px;
@@ -2949,6 +2984,7 @@ nav.navbar.navbar-default {
 @media(max-width:320px){
 	.banner h1 {
 	    font-size: 1.8em;
+		padding-top: 3em;
 	}
 	.logo {
     margin: 9px 12px 0 0px;
