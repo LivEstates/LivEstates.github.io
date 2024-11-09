@@ -399,7 +399,7 @@ a.btn.btn-primary.btn-lg.see-button.hvr-shutter-out-horizontal {
   font-weight: 400;
   margin: 0.5em 0 0 0;
   padding: 10px;
-  /* padding-bottom: 50px; */
+  padding-bottom: 0px;
   flex-shrink: 0; /* Prevents heading from shrinking */
   /* margin-bottom: 1em; */
   text-align: center;
@@ -1775,7 +1775,7 @@ figure.icon i {
 }
 .service-box h5 {
     font-size: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 .banner-bottom-left-grid{
     width: 50%;
@@ -2721,7 +2721,7 @@ nav.navbar.navbar-default {
     right: -7%;
 }
 .service-box h5{
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 }
 .banner-bottom-left-grid h3 {
 	font-size: 12px;
