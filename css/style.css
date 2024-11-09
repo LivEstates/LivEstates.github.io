@@ -141,7 +141,7 @@ color: #fff !important;
     text-align: center;
     padding-top: 2.2em;
 	padding-left: 20px;
-    color: #000000;
+    color: #c70000;
     /* font-family: 'Francois One', sans-serif; */
     letter-spacing: 9px;
     font-weight: 900;
@@ -156,7 +156,7 @@ color: #fff !important;
     font-size: 3.5em;
     text-align: center;
     padding-top: 1.5em;
-    color: #a70000;
+    color: #c70000;
     /* font-family: 'Francois One', sans-serif; */
     letter-spacing: 9px;
     font-weight: 900;
@@ -222,6 +222,8 @@ color: #fff !important;
 }
 .about h1{
 	font-size: 30px;
+	color: #c70000;
+
 }
 .about h2,.services h3,.gallery h3{
         font-family: 'Signika Negative', sans-serif;
@@ -420,17 +422,17 @@ a.btn.btn-primary.btn-lg.see-button.hvr-shutter-out-horizontal {
     font-weight: 400;
     text-align: center;
     width: 96%;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     justify-content: center;
     flex-grow: 1; /* Allows paragraph to take remaining space */
-    padding: 10px 15px;
+    padding: 15px 15px;
 	/* Add these properties */
 	min-height: 120px; /* Set minimum height - adjust as needed */
 	display: flex;
-	align-items: center; /* Vertically centers text within the paragraph */
+	/* align-items: center; Vertically centers text within the paragraph */
 	justify-content: center; /* Horizontally centers text */
-	padding: 0 15px; /* Add horizontal padding */
+	/*padding: 0 15px;  Add horizontal padding */
 	margin: 0 auto; /* Centers the paragraph block */
 }
 .serve-grids-top:nth-child(2) {
@@ -3124,7 +3126,8 @@ nav.navbar.navbar-default {
   
   .train-top p {
 	flex-grow: 1; /* Allows the paragraph to grow and fill available space */
-	display: flex;
+	/* display: flex; */
+	padding-top: 10px;
 	align-items: center; /* This centers the text vertically */
 	margin: 0; /* Remove default margins */
   }
